@@ -68,7 +68,7 @@ hr {
 
 .prices article {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -96,4 +96,11 @@ hr {
 .interpreting:hover {
   background: crimson;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .prices article {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

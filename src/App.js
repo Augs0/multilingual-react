@@ -28,7 +28,12 @@ const App = () => {
                 defaultMessage="About Voyager"
               ></FormattedMessage>
             </h2>
-            <p>Voyager is the leading name in translation and interpreting services. With over 30 years of experience, Voyager knows what you need in a translation and interpreting service. We make it easy and accessible to get the trnslations you need, fast.</p>
+            <p>
+              <FormattedMessage
+                id="about.para"
+                defaultMessage="Voyager is the leading name in translation and interpreting services. With over 30 years of experience, Voyager knows what you need in a translation and interpreting service. We make it easy and accessible to get the trnslations you need, fast."
+              ></FormattedMessage>
+            </p>
           </section>
           <hr />
           <section className="services">
@@ -39,12 +44,24 @@ const App = () => {
               ></FormattedMessage>
             </h2>
             <ul>
-              <li>Consecutive interpreting</li>
-              <li>Simultaneous interpreting</li>
-              <li>Multilingual social media content</li>
-              <li>Document translation</li>
-              <li>Public health interpreting</li>
-              <li>Legal interpreting</li>
+              <li>
+                <FormattedMessage id="service.one" defaultMessage="Consecutive interpreting"></FormattedMessage>
+              </li>
+              <li>
+                <FormattedMessage id="service.two" defaultMessage="Simultaneous interpreting"></FormattedMessage>
+              </li>
+              <li>
+                <FormattedMessage id="service.three" defaultMessage="Multilingual social media content"></FormattedMessage>
+              </li>
+              <li>
+                <FormattedMessage id="service.four" defaultMessage="Document translation"></FormattedMessage>
+              </li>
+              <li>
+                <FormattedMessage id="service.five" defaultMessage="Public health interpreting"></FormattedMessage>
+              </li>
+              <li>
+                <FormattedMessage id="service.six" defaultMessage="Legal interpreting"></FormattedMessage>
+              </li>
             </ul>
           </section>
           <hr />
@@ -55,16 +72,20 @@ const App = () => {
                 defaultMessage="Pricing"
               ></FormattedMessage>
             </h2>
-            <p>The services of our translators and interpreters is priced by the hour.</p>
+            <p>
+              <FormattedMessage id="prices.para" defaultMessage="The services of our translators and interpreters is priced by the hour."></FormattedMessage>
+            </p>
             <article>
               <p className="translation">
-                Translation
-                £9 per hour of work
-            </p>
+                <FormattedMessage id="translator.para" defaultMessage="Translation
+                £9 per hour of work"></FormattedMessage>
+              </p>
               <p className="interpreting">
-                Interpreting
-                £10 / £15 per hour (consecutive / simultaneous)
-            </p>
+                <FormattedMessage
+                  id="interpreter.para" defaultMessage="Interpreting
+                £10 / £15 per hour (consecutive / simultaneous)"
+                ></FormattedMessage>
+              </p>
             </article>
           </section>
         </main>
