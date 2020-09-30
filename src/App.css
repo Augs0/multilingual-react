@@ -1,20 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sansita+Swashed&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #4ec5f1;
+  background-color: #cde2f4;
   color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .btn {
@@ -26,4 +38,62 @@ body {
   font-size: 14px;
   margin: 0 10px;
   cursor: pointer;
+}
+
+section {
+  padding: 40px;
+  max-width: 800px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+hr {
+  border: 10px solid white;
+  border-image: repeating-linear-gradient(
+      145deg,
+      #c32d22,
+      #c32d22 3%,
+      white,
+      white 4%,
+      #210ef6,
+      #210ef6 6%,
+      white 1%,
+      white 8%
+    )
+    10;
+}
+
+.prices article {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.translation,
+.interpreting {
+  display: flex;
+  max-width: 250px;
+  padding: 20px;
+  border: black solid 6px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.btn:hover,
+.translation:hover,
+.interpreting:hover {
+  background: crimson;
+  color: white;
 }

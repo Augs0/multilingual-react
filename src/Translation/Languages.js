@@ -1,6 +1,6 @@
 import en from './lang_en';
 import es from './lang_es';
-import jp from './lang_jp';
+import ja from './lang_ja';
 
-export const languages = { en, es, jp };
+export const languages = { en, es, ja };
 export const getMessages = (locale) => languages[locale];
