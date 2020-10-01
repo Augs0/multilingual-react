@@ -54,8 +54,8 @@ hr {
   border: 10px solid white;
   border-image: repeating-linear-gradient(
       145deg,
-      #c32d22,
-      #c32d22 3%,
+      crimson,
+      crimson 3%,
       white,
       white 4%,
       #210ef6,
@@ -64,6 +64,11 @@ hr {
       white 8%
     )
     10;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
 }
 
 .prices article {

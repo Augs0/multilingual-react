@@ -31,7 +31,7 @@ const App = () => {
             <p>
               <FormattedMessage
                 id="about.para"
-                defaultMessage="Voyager is the leading name in translation and interpreting services. With over 30 years of experience, Voyager knows what you need in a translation and interpreting service. We make it easy and accessible to get the trnslations you need, fast."
+                defaultMessage="Voyager is the leading name in translation and interpreting services. With over 30 years of experience, Voyager knows what you need in a translation and interpreting service. We make it easy and accessible to get the translations you need, fast."
               ></FormattedMessage>
             </p>
           </section>
