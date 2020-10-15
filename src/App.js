@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import { getMessages } from "./Translation/Languages";
+import Chatbot from './Components/Chatbot'
 import "./App.css";
 
 const App = () => {
@@ -89,6 +90,7 @@ const App = () => {
             </article>
           </section>
         </main>
+        <Chatbot />
       </div>
     </IntlProvider>
   );
